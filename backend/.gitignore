@@ -1,3 +1,17 @@
-.env
+# Dependencies
+node_modules/
 
-node_modules
+# Build
+dist/
+build/
+.expo/
+web-build/
+*.log
+
+# OS and IDE
+.DS_Store
+*.swp
+*.swo
+.vscode/
+
+.env
