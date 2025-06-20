@@ -1,4 +1,4 @@
-import { useSignIn } from '@clerk/clerk-expo'
+import { useSignIn, SignedOut } from '@clerk/clerk-expo'
 import { Link, useRouter } from 'expo-router'
 import { Text, TextInput, TouchableOpacity, View, Image } from 'react-native'
 import { useState } from 'react'
@@ -6,6 +6,7 @@ import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view
 import { styles} from '@/assets/styles/auth.styles.js'
 import { Ionicons } from '@expo/vector-icons'
 import { COLORS } from '@/constants/colors.js'
+import { SignOutButton } from '@/components/SignOutButton'
 
 
 
@@ -96,6 +97,7 @@ export default function Page() {
                 </TouchableOpacity>
             </Link>
         </View>
+        {/* <SignOutButton /> */}
       </View>
     </KeyboardAwareScrollView>
   )
