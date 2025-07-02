@@ -2,14 +2,6 @@ REACT-WALLET
 
 Empower Your Finances with Seamless Control
 
-![Badges]
-
-    last commit: June
-
-    javascript: 97.4%
-
-    languages: 2
-
 Built with the tools and technologies:
 
     Express
