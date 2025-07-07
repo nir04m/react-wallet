@@ -1,102 +1,120 @@
-REACT-WALLET
+<div id="top">
 
-Empower Your Finances with Seamless Control
+<!-- HEADER STYLE: CLASSIC -->
+<div align="center">
 
-Built with the tools and technologies:
 
-    Express
+# REACT-WALLET
 
-    JSON
+<em>Empower Your Finances with Seamless Control</em>
 
-    Markdown
+<!-- BADGES -->
+<img src="https://img.shields.io/github/languages/top/nir04m/react-wallet?style=flat&color=0080ff" alt="repo-top-language">
+<img src="https://img.shields.io/github/languages/count/nir04m/react-wallet?style=flat&color=0080ff" alt="repo-language-count">
 
-    npm
+<em>Built with the tools and technologies:</em>
 
-    .ENV
+<img src="https://img.shields.io/badge/Express-000000.svg?style=flat&logo=Express&logoColor=white" alt="Express">
+<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
+<img src="https://img.shields.io/badge/Markdown-000000.svg?style=flat&logo=Markdown&logoColor=white" alt="Markdown">
+<img src="https://img.shields.io/badge/npm-CB3837.svg?style=flat&logo=npm&logoColor=white" alt="npm">
+<img src="https://img.shields.io/badge/.ENV-ECD53F.svg?style=flat&logo=dotenv&logoColor=black" alt=".ENV">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
+<br>
+<img src="https://img.shields.io/badge/Nodemon-76D04B.svg?style=flat&logo=Nodemon&logoColor=white" alt="Nodemon">
+<img src="https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=React&logoColor=black" alt="React">
+<img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=flat&logo=TypeScript&logoColor=white" alt="TypeScript">
+<img src="https://img.shields.io/badge/Expo-000020.svg?style=flat&logo=Expo&logoColor=white" alt="Expo">
+<img src="https://img.shields.io/badge/ESLint-4B32C3.svg?style=flat&logo=ESLint&logoColor=white" alt="ESLint">
 
-    JavaScript
+</div>
+<br>
 
-    Nodemon
+---
 
-    React
+## Table of Contents
 
-    TypeScript
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Testing](#testing)
 
-    Expo
+---
 
-    ESLint
+## Overview
 
-Table of Contents
+react-wallet is a full-stack personal finance platform that seamlessly integrates a React Native mobile app with a robust Express backend. Designed for scalability and security, it empowers developers to build user-friendly financial management tools efficiently within a maintainable codebase.
 
-    Overview
+**Why react-wallet?**
 
-    Getting Started
+This project simplifies creating secure, cross-platform financial apps. The core features include:
 
-        Prerequisites
+- 🛡️ **Secure Authentication:** Utilizes Clerk to manage user sessions and ensure data privacy.
+- 🌐 **Cross-Platform Support:** Built with Expo, enabling deployment across iOS, Android, and web.
+- 🧱 **Modular Architecture:** Facilitates scalable development and easy maintenance.
+- 💾 **Backend API & Database:** Integrates Express with Neon and Upstash Redis for reliable data storage and request management.
+- 📊 **Transaction Management:** Offers real-time updates and intuitive interfaces for financial tracking.
+- ⚙️ **Developer-Friendly Setup:** Includes TypeScript, ESLint, and comprehensive configuration for a smooth development experience.
 
-        Installation
+---
 
-        Usage
+## Getting Started
 
-        Testing
-
-Overview
-
-react-wallet is an all-in-one personal finance solution combining a React Native mobile app with a powerful Express backend. Designed for developers, it streamlines building secure, cross-platform financial management tools with a focus on user experience and maintainability.
-
-Why react-wallet?
-
-This project empowers developers to create seamless, secure finance apps with ease. The core features include:
-
-    🌸🔧 Customizable UI Components: Reusable elements like transaction lists, balance cards, and safe screen layouts ensure a consistent user experience.
-
-    🚀📱 Cross-Platform Support: Built with Expo, enabling deployment across iOS, Android, and web from a single codebase.
-
-    🔐🧑‍💻 Secure Authentication: Integrated Clerk flows for sign-in, sign-up, and session management, safeguarding user data.
-
-    ⚙️🧱 Modular Architecture: Clear separation of frontend and backend, with scalable API endpoints, rate limiting, and scheduled health checks.
-
-    📊📚 Utility & Config Management: Centralized constants, utilities, and TypeScript configurations promote maintainability and code quality.
-
-Getting Started
-Prerequisites
+### Prerequisites
 
 This project requires the following dependencies:
 
-    Programming Language: JavaScript
+- **Programming Language:** JavaScript
+- **Package Manager:** Npm
 
-    Package Manager: Npm
-
-Installation
+### Installation
 
 Build react-wallet from the source and install dependencies:
 
-    Clone the repository:
+1. **Clone the repository:**
 
-git clone https://github.com/nir04m/react-wallet
+    ```sh
+    ❯ git clone https://github.com/nir04m/react-wallet
+    ```
 
-    Navigate to the project directory:
+2. **Navigate to the project directory:**
 
-cd react-wallet
+    ```sh
+    ❯ cd react-wallet
+    ```
 
-    Install the dependencies:
+3. **Install the dependencies:**
 
-Using npm:
+**Using [npm](https://www.npmjs.com/):**
 
-  npm install
+```sh
+❯ npm install
+```
 
-  Usage
+### Usage
 
-  Run the project with:
+Run the project with:
 
-  Using npm:
+**Using [npm](https://www.npmjs.com/):**
 
-    npm start
+```sh
+npm start
+```
 
-Testing
+### Testing
 
-React-wallet uses the {test_framework} test framework. Run the test suite with:
+React-wallet uses the {__test_framework__} test framework. Run the test suite with:
 
-Using npm:
+**Using [npm](https://www.npmjs.com/):**
 
-    npm test
+```sh
+npm test
+```
+
+---
+
+<div align="left"><a href="#top">⬆ Return</a></div>
+
+---
